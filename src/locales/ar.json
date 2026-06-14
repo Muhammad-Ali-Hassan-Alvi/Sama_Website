@@ -1,0 +1,244 @@
+{
+  "brand": {
+    "name": "سما ديجيتال",
+    "tagline": "بيت برمجيات واستوديو رقمي. نبني المنتجات وننمّي العلامات بالعربية والإنجليزية.",
+    "short": "بيت برمجيات"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "industries": "القطاعات",
+    "work": "الأعمال",
+    "about": "من نحن",
+    "team": "الفريق",
+    "careers": "الوظائف",
+    "pricing": "الأسعار",
+    "faq": "الأسئلة",
+    "testimonials": "آراء العملاء",
+    "contact": "تواصل",
+    "cta": "ابدأ مشروعك",
+    "caseStudies": "دراسات الحالة",
+    "successStories": "قصص النجاح"
+  },
+  "hero": {
+    "eyebrow": "دبي · الرياض · عن بُعد",
+    "headlines": [
+      { "top": "بيت برمجيات", "bottom": "ثنائي اللغة" },
+      { "top": "نبني بـ", "bottom": "العربية والإنجليزية" },
+      { "top": "أطلق أسرع مع", "bottom": "MERN و Next.js" },
+      { "top": "انمو مع", "bottom": "التسويق الرقمي" }
+    ],
+    "description": "سما ديجيتال بيت برمجيات واستوديو نمو. نطوّر منتجات MERN وNext.js، ونشغّل حملات ثنائية اللغة، ونساعد علامتك على الفوز في السوقين العربي والإنجليزي.",
+    "primaryCta": "احجز مكالمة استراتيجية",
+    "secondaryCta": "شاهد أعمالنا",
+    "statYears": "سنوات في بناء البرمجيات",
+    "statProjects": "مشروع منجز",
+    "statMarkets": "أسواق نخدمها",
+    "cardTitle": "برمجيات ونمو",
+    "cardItems": ["تطبيقات ويب وجوال مخصصة", "تطوير MERN و Next.js", "تسويق وSEO ثنائي اللغة"],
+    "floatingTagline": "استوديو نمو للعلامات التي تريد أن تُرى وتُتذكّر."
+  },
+  "clients": {
+    "title": "يثق بنا فرق في الخليج",
+    "subtitle": "من إطلاقات التجزئة إلى SaaS — نتشارك مع من يتحركون بسرعة."
+  },
+  "services": {
+    "eyebrow": "خدماتنا",
+    "title": "كل ما تحتاجه للنمو أونلاين",
+    "subtitle": "ثلاثة مجالات مركّزة. بدون عقود منتفخة — فقط عمل يحرّك الأرقام.",
+    "items": {
+      "marketing": {
+        "title": "التسويق الرقمي",
+        "description": "سوشيال مدفوع، بحث، ومحتوى مُحسّن للجمهور العربي والإنجليزي.",
+        "points": ["حملات Meta وGoogle", "تحسين صفحات الهبوط", "تقارير نمو شهرية"]
+      },
+      "mern": {
+        "title": "تطوير MERN Stack",
+        "description": "منتجات full-stack بـ MongoDB وExpress وReact وNode — قابلة للتوسع.",
+        "points": ["لوحات تحكم", "تكامل APIs", "نشر سحابي"]
+      },
+      "nextjs": {
+        "title": "تطبيقات Next.js",
+        "description": "مواقع وتطبيقات سريعة، جاهزة للSEO، بتجربة مستخدم مصقولة.",
+        "points": ["مواقع تسويقية", "واجهات تجارة", "توجيه متعدد اللغات"]
+      }
+    },
+    "learnMore": "اعرف المزيد",
+    "viewAll": "عرض كل الخدمات"
+  },
+  "whyUs": {
+    "eyebrow": "لماذا سما",
+    "title": "مبني للأسواق ثنائية اللغة",
+    "subtitle": "معظم الوكالات تترجم في النهاية. نحن نصمم للعربية والإنجليزية من اليوم الأول.",
+    "items": {
+      "bilingual": { "title": "سير عمل ثنائي اللغة", "description": "نصوص وتخطيط وحملات يراجعها متخصصون — لا ترجمة آلية." },
+      "speed": { "title": "إطلاق خلال أسابيع", "description": "فريق صغير خبير، نطاقات واضحة، وعروض أسبوعية." },
+      "data": { "title": "قرارات مبنية على بيانات", "description": "كل توصية مربوطة بمقياس: CPA أو LTV أو معدل التحويل." },
+      "design": { "title": "تصميم إنساني", "description": "ألوان دافئة، خطوط واضحة، وحركة هادفة — لا قوالب فارغة." }
+    }
+  },
+  "process": {
+    "eyebrow": "كيف نعمل",
+    "title": "مسار واضح من الموجز للإطلاق",
+    "steps": {
+      "discover": { "title": "اكتشاف", "description": "نحدد الأهداف والجمهور والمنافسين باللغتين." },
+      "design": { "title": "تصميم وبناء", "description": "Wireframes ونسخ وتطوير بالتوازي — لا في صوامع منفصلة." },
+      "launch": { "title": "إطلاق وتحسين", "description": "ننطلق، نقيس، نكرّر. نبقى معك في sprint النمو الأول." }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "آراء العملاء",
+    "title": "نتائج يتحدث عنها شركاؤنا",
+    "subtitle": "نتائج حقيقية من حملات ومشاريع ثنائية اللغة في المنطقة.",
+    "items": [
+      { "quote": "أعادت سما بناء متجرنا العربي وخفّضت تكلفة العميل المحتمل بنسبة 38% في الشهر الأول.", "name": "ليلى الرشيد", "role": "مديرة التسويق، نور Retail" },
+      { "quote": "سلّموا لوحة Next.js ثنائية اللغة خلال ستة أسابيع — سريعة وسهلة الوصول.", "name": "عمر حسن", "role": "مؤسس، FleetPulse" },
+      { "quote": "أخيراً وكالة تفهم RTL دون أن تعامله كإضافة متأخرة.", "name": "سارة ميتشل", "role": "رئيسة المنتج، GulfPay" }
+    ]
+  },
+  "cta": {
+    "title": "مستعد للنمو بلغتين؟",
+    "subtitle": "أخبرنا عن مشروعك. نرد خلال يوم عمل واحد.",
+    "button": "تواصل معنا"
+  },
+  "footer": {
+    "description": "سما ديجيتال تساعد العلامات على النمو في الأسواق العربية والإنجليزية عبر التسويق والتطوير والاسترategia القابلة للقياس.",
+    "quickLinks": "روابط سريعة",
+    "company": "الشركة",
+    "contact": "تواصل",
+    "email": "hello@sama.digital",
+    "phone": "+971 4 123 4567",
+    "location": "مدينة دبي للإنترنت، الإمارات",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "about": {
+    "title": "عن سما ديجيتال",
+    "subtitle": "استوديو صغير بخبرة أسواق كبيرة",
+    "story": "بدأت سما عندما كان مؤسسوها يصلحون نفس المشكلة: حملات إنجليزية جميلة تفشل بالعربية — والعكس. بنينا استوديو يعامل اللغتين كأولوية متساوية.",
+    "missionTitle": "مهمتنا",
+    "mission": "مساعدة العلامات الطموحة في الخليج وخارجها على النمو أونلاين باستراتيجية صادقة وتصميم حاد وكود يدوم.",
+    "valuesTitle": "ما نؤمن به",
+    "values": ["الوضوح أهم من المصطلحات — بأي لغة.", "التصميم المشرق يمكن أن يبقى فاخراً.", "السرعة مهمة، لكن لا على حساب الجودة."],
+    "stats": { "team": "متخصصون خبراء", "countries": "دولة نخدمها", "retention": "احتفاظ بالعملاء" }
+  },
+  "contactPage": {
+    "title": "لنتحدث",
+    "subtitle": "شارك أهدافك ونقترح خطوة عملية تالية.",
+    "form": {
+      "name": "الاسم الكامل",
+      "email": "البريد الوظيفي",
+      "company": "الشركة",
+      "message": "أخبرنا عن مشروعك",
+      "submit": "إرسال الرسالة",
+      "success": "شكراً — سنتواصل قريباً."
+    }
+  },
+  "servicesPage": {
+    "title": "الخدمات",
+    "subtitle": "عروض مركّزة لفرق التسويق ومؤسسي المنتجات.",
+    "detailEyebrow": "نظرة عامة",
+    "capabilities": "القدرات",
+    "outcomes": "النتائج المتوقعة",
+    "relatedWork": "دراسات حالة ذات صلة"
+  },
+  "servicePages": {
+    "digital-marketing": {
+      "title": "التسويق الرقمي",
+      "subtitle": "حملات أداء مبنية للجمهور العربي والإنجليزي.",
+      "overview": "نصمم أنظمة تسويق كاملة — من الاكتساب المدفوع إلى تحويل صفحات الهبوط — بمحتوى ثنائي اللغة ي resonate فعلاً.",
+      "capabilities": ["إدارة Meta وGoogle Ads", "إبداع إعلاني AR/EN", "تحسين صفحات الهبوط", "إعداد التحليلات", "تقارير نمو شهرية"],
+      "outcomes": ["تكلفة اكتساب أقل", "تحويل أعلى", "ROI واضح لكل قناة"]
+    },
+    "mern-stack": {
+      "title": "تطوير MERN Stack",
+      "subtitle": "منتجات ويب full-stack تتوسع مع عملك.",
+      "overview": "مهندسونا يسلّمون تطبيقات MERN production-grade — لوحات، بوابات، أدوات داخلية — مع دعم UI ثنائي اللغة.",
+      "capabilities": ["واجهات React", "APIs Node/Express", "نمذجة MongoDB", "مصادقة وصلاحيات", "نشر سحابي"],
+      "outcomes": ["سير عمل أسرع", "أداء API موثوق", "كود قابل للصيانة"]
+    },
+    "nextjs": {
+      "title": "تطبيقات Next.js",
+      "subtitle": "مواقع سريعة جاهزة للSEO مع توجيه متعدد اللغات.",
+      "overview": "نبني مواقع وتطبيقات Next.js مع server components وcaching وlocale routing للعربية RTL والإنجليزية LTR.",
+      "capabilities": ["مواقع تسويقية ومنتجات", "واجهات تجارة", "i18n وRTL", "تكامل CMS", "تحسين Core Web Vitals"],
+      "outcomes": ["ظهور عضوي قوي", "تحميل أقل من 2 ثانية", "UX ثنائي اللغة سلس"]
+    }
+  },
+  "industriesPage": {
+    "title": "القطاعات",
+    "subtitle": "خطط تشغيلية لأسواق الخليج وMENA.",
+    "detailEyebrow": "خبرة قطاعية",
+    "challenges": "تحديات شائعة",
+    "solutions": "كيف نساعد"
+  },
+  "industryPages": {
+    "retail": { "title": "التجزئة والتجارة", "subtitle": "حوّل الزوار إلى مشترين بالعربية والإنجليزية.", "overview": "نساعد علامات التجزئة على إطلاق متاجر ثنائية اللغة وحملات موسمية.", "challenges": ["تحويل عربي منخفض", "إنفاق إعلاني مجزأ", "دفع بطيء على الجوال"], "solutions": ["صفحات منتج RTL-first", "سوشيال مدفوع محلي", "CRO على السلة والدفع"] },
+    "healthcare": { "title": "الرعاية الصحية", "subtitle": "تجارب رقمية تبني الثقة للمرضى والم/providers.", "overview": "مواقع compliant وaccessible وقنوات اكتساب مرضى بنصوص طبية عربية.", "challenges": ["متطلبات compliance", "ثقة منخفضة في الإعلانات", "تحويل مواعيد ضعيف"], "solutions": ["مواقع ثنائية accessible", "محتوى تعليمي", "حجز آمن"] },
+    "fintech": { "title": "التقنية المالية", "subtitle": "تسويق منتج وبناء ويب لأسواق منظمة.", "overview": "شراكة مع فرق fintech على landing pages وonboarding وdashboards.", "challenges": ["CAC مرتفع", "رسائل regulatory", "شرح منتج معقد"], "solutions": ["صفحات تحويل", "نسخ منتج ثنائي", "بناء MERN/Next.js آمن"] },
+    "hospitality": { "title": "الضيافة والسفر", "subtitle": "حملات موسمية ومواقع تزيد الحجوزات.", "overview": "من boutique hotels إلى منصات سفر — قصص بصرية وحملات أداء.", "challenges": ["تقلبات موسمية", "شرائح ضيوف متعددة", "حجوزات مباشرة منخفضة"], "solutions": ["مواقع حجز ثنائية", "حملات Meta/Google", "email retention"] }
+  },
+  "caseStudiesPage": {
+    "title": "دراسات الحالة",
+    "subtitle": "نتائج مقاسة من مشاريع ثنائية اللغة حديثة.",
+    "readCase": "اقرأ دراسة الحالة",
+    "metricLabel": "نتيجة رئيسية",
+    "detailEyebrow": "قصة نجاح",
+    "challenge": "التحدي",
+    "approach": "نهجنا",
+    "results": "النتائج"
+  },
+  "caseStudyPages": {
+    "noor-retail": { "title": "Noor Retail", "subtitle": "إعادة إطلاق متجر عربي مع CPL أقل 38%", "client": "Noor Retail · الإمارات", "service": "التسويق الرقمي", "challenge": "حملات إنجليزية ناجحة لكن صفحات عربية بتحويل نصف الإنجليزية.", "approach": "أعدنا بناء صفحات عربية RTL-first وأعدنا هيكلة حملات Meta.", "results": ["CPL أقل 38%", "CR عربي 2.4x", "Live خلال 6 أسابيع"], "summary": "إعادة بناء funnel عربي طابق أداء الإنجليزية." },
+    "fleetpulse": { "title": "FleetPulse", "subtitle": "لوحة Next.js ثنائية خلال 6 أسابيع", "client": "FleetPulse · السعودية", "service": "Next.js", "challenge": "dashboard يدعم RTL وLTR بدون codebases منفصلة.", "approach": "Next.js مع locale routing ومكتبة components مشتركة.", "results": ["6 أسابيع", "99.9% uptime", "ت parity AR/EN"], "summary": "codebase واحد، لغتان، أداء enterprise." },
+    "gulfpay": { "title": "GulfPay", "subtitle": "تسويق RTL لإطلاق fintech", "client": "GulfPay · البحرين", "service": "تسويق + ويب", "challenge": "إطلاق payments يحتاج رسائل ثقة بالعربية.", "approach": "copywriters regulatory-aware + موقع مشرق + إعلانات مرحلية.", "results": ["52% signups مؤهلة", "صفحات RTL-native", "4 sprints"], "summary": "إطلاق fintech محلي بالعربية وglobal بالإنجليزية." }
+  },
+  "careersPage": {
+    "title": "الوظائف",
+    "subtitle": "انضم لفريق خبير يبني منتجات وحملات ثنائية اللغة.",
+    "openRoles": "وظائف مفتوحة",
+    "apply": "قدّم الآن",
+    "location": "الموقع",
+    "type": "النوع",
+    "perksTitle": "لماذا تعمل معنا",
+    "perks": ["remote-friendly في GCC", "فريق صغير وownership", "مشاريع ثنائية من اليوم الأول", "ميزانية تعلم"]
+  },
+  "careerPages": {
+    "senior-react-dev": { "title": "Senior React Developer", "location": "دبي / عن بُعد", "type": "Full-time", "description": "ابنِ منتجات React وNext.js ثنائية اللغة. ownership كامل وmentoring." },
+    "growth-marketer": { "title": "Growth Marketer", "location": "الرياض / عن بُعد", "type": "Full-time", "description": "شغّل حملات Meta وGoogle للجمهور AR/EN." },
+    "arabic-copywriter": { "title": "Arabic Copywriter", "location": "عن بُعد", "type": "Contract", "description": "اكتب copy حملات وlanding pages بالعربية الفصحى." }
+  },
+  "teamPage": { "title": "فريقنا", "subtitle": "متخصصون في الاستراتيجية والتصميم والهندسة.", "join": "نوظّف" },
+  "teamMembers": {
+    "layla": { "name": "ليلى الرشيد", "role": "رئيسة الاستراتيجية", "bio": "+10 سنوات في حملات ثنائية للتجزئة وSaaS." },
+    "omar": { "name": "عمر حسن", "role": "Lead Engineer", "bio": "Full-stack متخصص MERN وNext.js مع i18n." },
+    "sarah": { "name": "سارة ميتشل", "role": "مديرة التصميم", "bio": "تصميم منتج accessible وRTL-aware." },
+    "ahmed": { "name": "أحمد Farouk", "role": "Growth Lead", "bio": "Performance marketing Meta وGoogle في MENA." }
+  },
+  "pricingPage": {
+    "title": "الأسعار",
+    "subtitle": "باقات شفافة — وسّع عندما تكون جاهزاً.",
+    "monthly": "شهرياً",
+    "popular": "الأكثر طلباً",
+    "choose": "اختر الباقة",
+    "contactSales": "تواصل مع المبيعات"
+  },
+  "pricingPlans": {
+    "starter": { "name": "Starter", "price": "$2,500", "description": "لعلامات early-stage تختبر قنوات ثنائية.", "features": ["زوج لغات AR/EN", "Landing + إعداد ads", "تقرير شهري", "دعم email"] },
+    "growth": { "name": "Growth", "price": "$5,500", "description": "لفرق جاهزة لتوسيع الحملات والويب.", "features": ["حملات ثنائية كاملة", "CRO وA/B", "مكالمات استراتيجية", "Slack", "ساعات صيانة ويب"] },
+    "enterprise": { "name": "Enterprise", "price": "Custom", "description": "منتجات معقدة وmulti-market وفرق dedicated.", "features": ["فريق dedicated", "MERN/Next.js مخصص", "SLA", "توسع multi-market", "مراجعات ربع سنوية"] }
+  },
+  "faqPage": {
+    "title": "الأسئلة الشائعة",
+    "subtitle": "إجابات عن العمل مع سما ديجيتال.",
+    "items": [
+      { "q": "هل تعملون مع عملاء خارج الخليج؟", "a": "نعم. شركاء في MENA وأوروبا وأمريكا الشمالية يحتاجون خبرة AR/EN." },
+      { "q": "هل تديرون التسويق والتطوير؟", "a": "بالتأكيد. كثيرون يبدأون بحملات ثم MERN/Next.js — أو العكس." },
+      { "q": "كيف تديرون المحتوى العربي والإنجليزي؟", "a": "مراجعون native، RTL من البداية، لا ترجمة آلية للنصوص facing customer." },
+      { "q": "ما المدة النموذجية؟", "a": "حملات 2–4 أسابيع. ويب 4–8 أسابيع حسب الن scope." },
+      { "q": "هل لديكم retainers؟", "a": "نعم. Growth وEnterprise تشمل optimization مستمر." },
+      { "q": "كيف نبدأ؟", "a": "احجز مكالمة عبر صفحة التواصل." }
+    ]
+  },
+  "notFound": { "title": "الصفحة غير موجودة", "subtitle": "الصفحة غير موجودة أو نُقلت.", "back": "العودة للرئيسية" },
+  "common": { "readMore": "اقرأ المزيد", "backTo": "العودة إلى", "getStarted": "ابدأ", "viewWork": "شاهد الأعمال" }
+}
