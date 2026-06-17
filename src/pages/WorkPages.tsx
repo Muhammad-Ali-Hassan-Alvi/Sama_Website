@@ -5,7 +5,7 @@ import { MotionInView } from "@/components/MotionInView";
 import { PageHero } from "@/components/sections/PageHero";
 import { SectionHeader } from "@/components/shared/SectionHeader";
 import { CtaBanner } from "@/components/sections/CtaBanner";
-import { industrySlugs, industryGradients } from "@/content/siteData";
+import { industrySlugs, industryImages, caseStudySlugs, caseStudyImages } from "@/content/siteData";
 
 export function IndustriesPage() {
   const { t } = useTranslation();
@@ -25,15 +25,23 @@ export function IndustriesPage() {
                 to={`/industries/${slug}`}
                 className="surface-card surface-card-hover group block overflow-hidden rounded-2xl"
               >
-                <div className={`bg-gradient-to-br p-8 ${industryGradients[slug]}`}>
-                  <h2 className="text-2xl font-bold">{t(`industryPages.${slug}.title`)}</h2>
-                  <p className="mt-2 text-sm text-foreground/75">
-                    {t(`industryPages.${slug}.subtitle`)}
-                  </p>
-                  <span className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-primary">
-                    {t("common.readMore")}
-                    <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                  </span>
+                <div className="relative aspect-[16/10] overflow-hidden">
+                  <img
+                    src={industryImages[slug]}
+                    alt=""
+                    className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0c0a09]/80 via-[#0c0a09]/35 to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 p-8 text-white">
+                    <h2 className="text-2xl font-bold">{t(`industryPages.${slug}.title`)}</h2>
+                    <p className="mt-2 text-sm text-white/80">
+                      {t(`industryPages.${slug}.subtitle`)}
+                    </p>
+                    <span className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-[#ffb4a8]">
+                      {t("common.readMore")}
+                      <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                    </span>
+                  </div>
                 </div>
               </Link>
             </MotionInView>
@@ -59,22 +67,32 @@ export function CaseStudiesPage() {
         <div className="section-container">
           <SectionHeader title={t("nav.successStories")} className="mb-0" />
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            {(["noor-retail", "fleetpulse", "gulfpay"] as const).map((slug, i) => (
+            {caseStudySlugs.map((slug, i) => (
               <MotionInView key={slug} delay={i * 0.1}>
                 <Link
                   to={`/case-studies/${slug}`}
-                  className="surface-card surface-card-hover flex h-full flex-col rounded-2xl p-6"
+                  className="surface-card surface-card-hover group flex h-full flex-col overflow-hidden rounded-2xl"
                 >
-                  <p className="text-xs font-bold uppercase tracking-wider text-secondary">
-                    {t(`caseStudyPages.${slug}.service`)}
-                  </p>
-                  <h3 className="mt-3 text-xl font-bold">{t(`caseStudyPages.${slug}.title`)}</h3>
-                  <p className="mt-2 flex-1 text-sm text-muted-foreground">
-                    {t(`caseStudyPages.${slug}.summary`)}
-                  </p>
-                  <span className="mt-6 text-sm font-semibold text-primary">
-                    {t("caseStudiesPage.readCase")} →
-                  </span>
+                  <div className="relative aspect-[16/10] overflow-hidden">
+                    <img
+                      src={caseStudyImages[slug]}
+                      alt=""
+                      className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+                  </div>
+                  <div className="flex flex-1 flex-col p-6">
+                    <p className="text-xs font-bold uppercase tracking-wider text-[#F86B64]">
+                      {t(`caseStudyPages.${slug}.service`)}
+                    </p>
+                    <h3 className="mt-3 text-xl font-bold">{t(`caseStudyPages.${slug}.title`)}</h3>
+                    <p className="mt-2 flex-1 text-sm text-muted-foreground">
+                      {t(`caseStudyPages.${slug}.summary`)}
+                    </p>
+                    <span className="mt-6 text-sm font-semibold text-[#F86B64]">
+                      {t("caseStudiesPage.readCase")} →
+                    </span>
+                  </div>
                 </Link>
               </MotionInView>
             ))}

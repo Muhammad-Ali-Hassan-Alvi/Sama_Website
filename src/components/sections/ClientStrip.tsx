@@ -25,7 +25,7 @@ export function ClientStrip() {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-6 md:gap-10">
           {logos.map(({ Icon, label }, i) => (
             <MotionInView key={label} delay={i * 0.08}>
-              <div className="flex items-center gap-2 rounded-full border bg-[#faf7f2] px-5 py-3 text-sm font-semibold text-foreground/70">
+              <div className="flex items-center gap-2 rounded-full border bg-[#f8f7f4] px-5 py-3 text-sm font-semibold text-foreground/70">
                 <Icon className="h-5 w-5" />
                 {label}
               </div>

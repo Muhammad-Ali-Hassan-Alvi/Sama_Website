@@ -11,31 +11,43 @@ export function CtaBanner() {
     <section className="section-shell">
       <div className="section-container">
         <MotionInView>
-          <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#e85d4c] via-[#ef7b55] to-[#f4a259] px-8 py-12 text-white shadow-2xl md:px-14 md:py-16">
+          <div className="cta-glass-wrap relative overflow-hidden rounded-[2rem] p-[1px]">
             <div
               aria-hidden
-              className="absolute -end-10 -top-10 h-40 w-40 rounded-full bg-white/15 blur-2xl"
+              className="pointer-events-none absolute inset-0 bg-gradient-to-br from-[#F86B64] via-[#ffb4a8] to-[#FFEDED] opacity-90"
             />
             <div
               aria-hidden
-              className="absolute -bottom-16 start-1/4 h-48 w-48 rounded-full bg-[#1a8f8f]/30 blur-3xl"
+              className="absolute -end-16 -top-16 h-56 w-56 rounded-full bg-white/30 blur-3xl"
             />
-            <div className="relative max-w-2xl">
-              <h2 className="text-balance text-3xl font-extrabold md:text-4xl">
-                {t("cta.title")}
-              </h2>
-              <p className="mt-4 text-white/90">{t("cta.subtitle")}</p>
-              <Button
-                asChild
-                size="lg"
-                variant="outline"
-                className="mt-8 border-white/30 bg-white text-foreground hover:bg-white/90"
-              >
-                <Link to="/contact">
-                  {t("cta.button")}
-                  <ArrowUpRight />
-                </Link>
-              </Button>
+            <div
+              aria-hidden
+              className="absolute -bottom-20 start-1/4 h-64 w-64 rounded-full bg-[#FFEDED]/60 blur-3xl"
+            />
+            <div
+              aria-hidden
+              className="absolute start-1/2 top-1/2 h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#F86B64]/25 blur-2xl"
+            />
+
+            <div className="cta-glass-panel relative px-8 py-12 text-white md:px-14 md:py-16">
+              <div className="relative z-[1] max-w-2xl">
+                <h2 className="font-display text-balance text-3xl font-extrabold tracking-tight md:text-4xl">
+                  {t("cta.title")}
+                </h2>
+                <p className="mt-4 text-base leading-relaxed text-white/85 md:text-lg">
+                  {t("cta.subtitle")}
+                </p>
+                <Button
+                  asChild
+                  size="lg"
+                  className="mt-8 border border-white/40 bg-white/90 text-foreground shadow-lg shadow-black/10 backdrop-blur-sm hover:bg-white"
+                >
+                  <Link to="/contact">
+                    {t("cta.button")}
+                    <ArrowUpRight />
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
         </MotionInView>

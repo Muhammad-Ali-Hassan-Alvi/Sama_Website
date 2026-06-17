@@ -1,8 +1,8 @@
 {
   "brand": {
     "name": "Sama Digital",
-    "tagline": "Software house and digital studio. We build products and grow brands in Arabic and English.",
-    "short": "Software House"
+    "tagline": "A global software studio. We build products, ship code, and grow brands — in any language, from anywhere.",
+    "short": "Software Studio"
   },
   "nav": {
     "home": "Home",
@@ -21,81 +21,86 @@
     "successStories": "Success Stories"
   },
   "hero": {
-    "eyebrow": "Dubai · Riyadh · Remote",
+    "eyebrow": "Remote-first · Worldwide",
     "headlines": [
-      { "top": "Your bilingual", "bottom": "Software House" },
-      { "top": "We build in", "bottom": "Arabic & English" },
+      { "top": "A young studio", "bottom": "With big ambition" },
+      { "top": "We build for", "bottom": "The whole web" },
       { "top": "Ship faster with", "bottom": "MERN & Next.js" },
-      { "top": "Grow with", "bottom": "Digital Marketing" }
+      { "top": "Code, design,", "bottom": "And growth" }
     ],
-    "description": "Sama Digital is a software house and growth studio. We ship MERN and Next.js products, run bilingual campaigns, and help your brand win in English and Arabic markets.",
-    "primaryCta": "Book a strategy call",
+    "description": "We're a startup software studio partnering with founders and teams across the globe. Product-grade web apps, multilingual experiences, and marketing that earns attention — without the agency theatre.",
+    "primaryCta": "Start a conversation",
     "secondaryCta": "See our work",
-    "statYears": "Years building software",
-    "statProjects": "Projects delivered",
-    "statMarkets": "Markets served",
-    "cardTitle": "Software & growth stack",
-    "cardItems": ["Custom web & mobile apps", "MERN & Next.js development", "Bilingual marketing & SEO"],
-    "floatingTagline": "Growth studio for brands that want to be seen and remembered."
+    "manifesto": "We're early, hungry, and building in public. Every line of code and every campaign carries our name on it — so we treat your product like it's ours.",
+    "promises": ["Founder on every project", "Weekly shipping rhythm", "Any timezone, one team"],
+    "cardTitle": "What we build",
+    "cardItems": ["Web & mobile products", "MERN & Next.js stacks", "Growth & multilingual SEO"],
+    "floatingTagline": "Small team. Sharp craft. Built for the internet — not one zip code."
   },
   "clients": {
-    "title": "Trusted by teams across the Gulf",
-    "subtitle": "From retail launches to SaaS rollouts — we partner with operators who move fast."
+    "title": "Built with teams around the world",
+    "subtitle": "From solo founders to scaling startups — we work remote-first, across time zones."
   },
   "services": {
     "eyebrow": "Our services",
     "title": "Everything you need to grow online",
-    "subtitle": "Three focused practices. No bloated retainers — just work that moves numbers.",
+    "subtitle": "Four focused practices. No bloated retainers — just work that moves numbers.",
     "items": {
       "marketing": {
         "title": "Digital Marketing",
-        "description": "Paid social, search, and content systems tuned for Arabic and English audiences.",
+        "description": "Paid social, search, and content systems tuned for global audiences — in one language or many.",
         "points": ["Meta & Google campaigns", "Landing page CRO", "Monthly growth reporting"]
       },
-      "mern": {
-        "title": "MERN Stack Development",
-        "description": "Full-stack products with MongoDB, Express, React, and Node — built to scale.",
-        "points": ["Admin dashboards", "API integrations", "Cloud deployment"]
+      "webdev": {
+        "title": "Web Development",
+        "description": "Custom websites and web platforms built with modern stacks — fast, maintainable, and ready to scale.",
+        "points": ["Responsive marketing sites", "CMS integrations", "Performance optimization"]
       },
-      "nextjs": {
-        "title": "Next.js Applications",
-        "description": "Fast, SEO-ready web apps with server components and polished UX.",
-        "points": ["Marketing sites", "E-commerce fronts", "Multilingual routing"]
+      "webapps": {
+        "title": "Web Applications Development",
+        "description": "Full product builds — dashboards, portals, and SaaS tools with polished UX and solid architecture.",
+        "points": ["React & Next.js apps", "API & database layers", "Auth & admin panels"]
+      },
+      "b2b": {
+        "title": "B2B Solutions",
+        "description": "Enterprise-grade digital partnerships — dedicated squads, SLAs, and long-term product roadmaps for business teams.",
+        "points": ["Dedicated dev squads", "Enterprise integrations", "Ongoing support & SLAs"]
       }
     },
     "learnMore": "Learn more",
     "viewAll": "View all services"
   },
   "whyUs": {
-    "eyebrow": "Why Sama",
-    "title": "Built for bilingual markets",
-    "subtitle": "Most agencies translate at the end. We design for Arabic and English from day one.",
+    "eyebrow": "Our philosophy",
+    "title": "Built for how the web actually works",
+    "subtitle": "Software, design, and growth as one craft — for teams anywhere on the map, not one region on a slide deck.",
     "items": {
       "bilingual": {
-        "title": "Native bilingual workflows",
-        "description": "Copy, layout, and campaigns reviewed by Arabic and English specialists — not machine translation."
+        "title": "Multilingual by design",
+        "description": "English, Arabic, or more — we design layouts and copy for every locale from day one, not as a patch later."
       },
       "speed": {
-        "title": "Ship in weeks, not quarters",
-        "description": "Small senior team, tight scopes, and weekly demos so you always know where things stand."
+        "title": "Startup speed, senior craft",
+        "description": "We're small on purpose. You get the people doing the work — in weekly sprints, with nothing lost in translation."
       },
       "data": {
-        "title": "Decisions backed by data",
-        "description": "Every recommendation ties to metrics: CPA, LTV, conversion rate, or time-to-ship."
+        "title": "Honest metrics",
+        "description": "We tie decisions to real numbers: conversion, retention, ship date — never vanity decks."
       },
       "design": {
-        "title": "Design that feels human",
-        "description": "Warm palettes, clear typography, and motion with purpose — never template filler."
+        "title": "Taste you can feel",
+        "description": "Bright, human interfaces with motion that means something. No template filler. No AI slop."
       }
     }
   },
   "process": {
     "eyebrow": "How we work",
     "title": "A clear path from brief to launch",
+    "scrollHint": "Scroll to walk through each step",
     "steps": {
       "discover": {
         "title": "Discover",
-        "description": "We map goals, audiences, and competitors in both languages."
+        "description": "We map goals, audiences, and competitors — wherever your users live."
       },
       "design": {
         "title": "Design & build",
@@ -107,60 +112,88 @@
       }
     }
   },
+  "featuredWork": {
+    "eyebrow": "Case studies",
+    "title": "Work we're proud of",
+    "subtitle": "Real projects — measured outcomes, honest timelines, teams from around the world."
+  },
+  "openSource": {
+    "eyebrow": "Open source",
+    "title": "We build in public",
+    "subtitle": "Tools and kits we open-source for the community — the same craft we bring to client work.",
+    "viewRepo": "View on GitHub",
+    "projects": {
+      "locale-ui": {
+        "name": "Locale UI Kit",
+        "description": "RTL/LTR-ready React components with i18n patterns baked in.",
+        "stars": "240+"
+      },
+      "ship-kit": {
+        "name": "Ship Kit",
+        "description": "Next.js starter with auth, i18n, and deployment presets for fast launches.",
+        "stars": "180+"
+      },
+      "motion-primitives": {
+        "name": "Motion Primitives",
+        "description": "Lightweight scroll and reveal animations for React + Framer Motion.",
+        "stars": "95+"
+      }
+    }
+  },
   "testimonials": {
     "eyebrow": "Client voices",
     "title": "Results our partners talk about",
-    "subtitle": "Real outcomes from bilingual campaigns and product builds across the region.",
+    "subtitle": "Early partners who bet on a small studio and got real work.",
     "items": [
       {
-        "quote": "Sama rebuilt our Arabic storefront and cut our cost-per-lead by 38% in the first month.",
+        "quote": "They rebuilt our storefront and cut cost-per-lead by 38% in the first month — on a startup budget.",
         "name": "Layla Al-Rashid",
         "role": "Marketing Director, Noor Retail"
       },
       {
-        "quote": "They shipped our Next.js dashboard in six weeks — bilingual, accessible, and fast.",
+        "quote": "Our Next.js dashboard shipped in six weeks — multilingual, accessible, and fast.",
         "name": "Omar Hassan",
         "role": "Founder, FleetPulse"
       },
       {
-        "quote": "Finally an agency that understands RTL design without treating it as an afterthought.",
+        "quote": "Finally a studio that gets RTL and LTR without treating either as an afterthought.",
         "name": "Sarah Mitchell",
-        "role": "Head of Product, GulfPay"
+        "role": "Head of Product, PayFlow"
       }
     ]
   },
   "cta": {
-    "title": "Ready to grow in two languages?",
-    "subtitle": "Tell us about your project. We reply within one business day.",
+    "title": "Let's build something worth showing",
+    "subtitle": "Tell us what you're making. We reply within one business day — from wherever you are.",
     "button": "Get in touch"
   },
   "footer": {
-    "description": "Sama Digital is a software house and growth studio helping brands build products and grow across Arabic and English markets with marketing, web development, and measurable strategy.",
+    "description": "Sama Digital is a global software studio — product builds, multilingual web, and growth for teams who'd rather ship than slide.",
     "quickLinks": "Quick links",
     "company": "Company",
     "contact": "Contact",
     "email": "hello@sama.digital",
-    "phone": "+971 4 123 4567",
-    "location": "Dubai Internet City, UAE",
+    "phone": "Remote worldwide",
+    "location": "Remote · Worldwide",
     "rights": "All rights reserved."
   },
   "about": {
     "title": "About Sama Digital",
-    "subtitle": "A small studio with big-market experience",
-    "story": "Sama Digital started when our founders kept fixing the same problem: beautiful English campaigns that failed in Arabic — and vice versa. We built a studio that treats both languages as first-class citizens.",
+    "subtitle": "A startup studio with a global mindset",
+    "story": "Sama started with a simple frustration: too many agencies sell scale they don't have, and too much software ships without a soul. We're a small team building products and brands for the open web — multilingual when you need it, sharp always.",
     "missionTitle": "Our mission",
-    "mission": "Help ambitious brands in the Gulf and beyond grow online with honest strategy, sharp design, and code that lasts.",
+    "mission": "Help ambitious teams anywhere ship software and stories that feel intentional — honest scope, honest timelines, work we're proud to put our name on.",
     "valuesTitle": "What we believe",
     "values": [
-      "Clarity beats jargon — in any language.",
-      "Bright design can still feel premium.",
-      "Speed matters, but never at the cost of quality."
+      "Small teams beat big decks.",
+      "The internet is global — your product should be too.",
+      "Craft still matters, especially when you're starting out."
     ],
-    "stats": {
-      "team": "Senior specialists",
-      "countries": "Countries served",
-      "retention": "Client retention"
-    }
+    "beliefs": [
+      "No account managers. You talk to the people building.",
+      "Weekly demos, not quarterly surprises.",
+      "Multilingual when it matters — not as a checkbox."
+    ]
   },
   "contactPage": {
     "title": "Let's talk",
@@ -185,29 +218,50 @@
   "servicePages": {
     "digital-marketing": {
       "title": "Digital Marketing",
-      "subtitle": "Performance campaigns built for Arabic and English audiences.",
-      "overview": "We design full-funnel marketing systems — from paid acquisition to landing page conversion — with bilingual creative that actually resonates.",
-      "capabilities": ["Meta & Google Ads management", "Arabic/English ad creative", "Landing page CRO", "Analytics & attribution setup", "Monthly growth reporting"],
+      "subtitle": "Performance campaigns built for global audiences.",
+      "overview": "We design full-funnel marketing systems — from paid acquisition to landing page conversion — with creative that resonates locally, wherever locally is.",
+      "capabilities": ["Meta & Google Ads management", "Multilingual ad creative", "Landing page CRO", "Analytics & attribution setup", "Monthly growth reporting"],
       "outcomes": ["Lower cost per acquisition", "Higher landing page conversion", "Clear channel-level ROI"]
     },
     "mern-stack": {
-      "title": "MERN Stack Development",
-      "subtitle": "Full-stack web products that scale with your business.",
-      "overview": "Our engineers ship production-grade MERN applications — dashboards, portals, and internal tools — with clean architecture and bilingual UI support.",
-      "capabilities": ["React frontends", "Node/Express APIs", "MongoDB data modeling", "Auth & role management", "Cloud deployment"],
-      "outcomes": ["Faster internal workflows", "Reliable API performance", "Maintainable codebase"]
+      "title": "Web Development",
+      "subtitle": "Custom websites and web platforms built to scale with your business.",
+      "overview": "We ship production-grade web projects — marketing sites, portals, and platforms — with clean architecture and locale-ready UI when you need it.",
+      "capabilities": ["Responsive frontends", "Node/Express APIs", "Database design", "Auth & role management", "Cloud deployment"],
+      "outcomes": ["Faster time-to-market", "Reliable performance", "Maintainable codebase"]
+    },
+    "web-development": {
+      "title": "Web Development",
+      "subtitle": "Custom websites and web platforms built to scale with your business.",
+      "overview": "We ship production-grade web projects — marketing sites, portals, and platforms — with clean architecture and locale-ready UI when you need it.",
+      "capabilities": ["Responsive frontends", "Node/Express APIs", "Database design", "Auth & role management", "Cloud deployment"],
+      "outcomes": ["Faster time-to-market", "Reliable performance", "Maintainable codebase"]
     },
     "nextjs": {
-      "title": "Next.js Applications",
-      "subtitle": "Fast, SEO-ready sites and apps with multilingual routing.",
-      "overview": "We build marketing sites and web apps on Next.js with server components, edge caching, and locale-aware routing for Arabic RTL and English LTR.",
-      "capabilities": ["Marketing & product sites", "E-commerce storefronts", "i18n & RTL layouts", "CMS integration", "Core Web Vitals optimization"],
-      "outcomes": ["Strong organic visibility", "Sub-2s page loads", "Seamless bilingual UX"]
+      "title": "Web Applications Development",
+      "subtitle": "Full product builds with modern frameworks and multilingual routing.",
+      "overview": "We build web applications on React and Next.js with server components, edge caching, and locale-aware routing for any language direction.",
+      "capabilities": ["SaaS & dashboards", "E-commerce fronts", "i18n & RTL/LTR layouts", "CMS integration", "Core Web Vitals optimization"],
+      "outcomes": ["Strong organic visibility", "Sub-2s page loads", "Seamless multilingual UX"]
+    },
+    "web-applications-development": {
+      "title": "Web Applications Development",
+      "subtitle": "Full product builds with modern frameworks and multilingual routing.",
+      "overview": "We build web applications on React and Next.js with server components, edge caching, and locale-aware routing for any language direction.",
+      "capabilities": ["SaaS & dashboards", "E-commerce fronts", "i18n & RTL/LTR layouts", "CMS integration", "Core Web Vitals optimization"],
+      "outcomes": ["Strong organic visibility", "Sub-2s page loads", "Seamless multilingual UX"]
+    },
+    "b2b-solutions": {
+      "title": "B2B Solutions",
+      "subtitle": "Long-term digital partnerships for enterprise and growth-stage teams.",
+      "overview": "We embed with your business as a technical partner — dedicated squads, clear SLAs, and a roadmap that scales with your organization. From internal tools to customer-facing platforms, we align engineering with business outcomes.",
+      "capabilities": ["Dedicated cross-functional squads", "CRM, ERP & API integrations", "Security & compliance reviews", "Quarterly roadmap planning", "24/7 support tiers"],
+      "outcomes": ["Predictable delivery cadence", "Lower total cost of ownership", "A team that knows your stack"]
     }
   },
   "industriesPage": {
     "title": "Industries",
-    "subtitle": "Sector-specific playbooks for Gulf and MENA markets.",
+    "subtitle": "Sector playbooks for teams building globally.",
     "detailEyebrow": "Industry expertise",
     "challenges": "Common challenges",
     "solutions": "How we help"
@@ -215,36 +269,36 @@
   "industryPages": {
     "retail": {
       "title": "Retail & E-commerce",
-      "subtitle": "Convert browsers into buyers in Arabic and English.",
-      "overview": "We help retail brands launch bilingual storefronts, seasonal campaigns, and retention flows tuned for Gulf shopping behaviour.",
-      "challenges": ["Low Arabic conversion rates", "Fragmented ad spend", "Slow mobile checkout"],
-      "solutions": ["RTL-first product pages", "Localized paid social", "CRO on cart & checkout"]
+      "subtitle": "Convert browsers into buyers — in any language.",
+      "overview": "We help retail brands launch storefronts, seasonal campaigns, and retention flows tuned for how people actually shop online.",
+      "challenges": ["Low conversion on mobile", "Fragmented ad spend", "Slow checkout flows"],
+      "solutions": ["Locale-aware product pages", "Performance paid social", "CRO on cart & checkout"]
     },
     "healthcare": {
       "title": "Healthcare",
       "subtitle": "Trust-building digital experiences for patients and providers.",
-      "overview": "Compliant, accessible websites and patient acquisition funnels with Arabic medical copy reviewed by specialists.",
+      "overview": "Compliant, accessible websites and patient acquisition funnels with medical copy reviewed by specialists.",
       "challenges": ["Complex compliance needs", "Low trust in ads", "Poor appointment conversion"],
-      "solutions": ["Accessible bilingual sites", "Educational content funnels", "Secure booking flows"]
+      "solutions": ["Accessible multilingual sites", "Educational content funnels", "Secure booking flows"]
     },
     "fintech": {
       "title": "Fintech",
       "subtitle": "Product marketing and web builds for regulated markets.",
       "overview": "We partner with fintech teams on landing pages, onboarding flows, and dashboards that communicate trust in both languages.",
       "challenges": ["High CAC", "Regulatory messaging", "Complex product explainers"],
-      "solutions": ["Conversion-focused landing pages", "Bilingual product copy", "Secure MERN/Next.js builds"]
+      "solutions": ["Conversion-focused landing pages", "Multilingual product copy", "Secure MERN/Next.js builds"]
     },
     "hospitality": {
       "title": "Hospitality & Travel",
       "subtitle": "Drive bookings with seasonal campaigns and stunning web presence.",
       "overview": "From boutique hotels to travel platforms — we craft visual storytelling and performance campaigns for international and regional guests.",
       "challenges": ["Seasonal demand swings", "Multi-language guest segments", "Low direct bookings"],
-      "solutions": ["Bilingual booking sites", "Meta & Google travel campaigns", "Email retention flows"]
+      "solutions": ["Multilingual booking sites", "Meta & Google travel campaigns", "Email retention flows"]
     }
   },
   "caseStudiesPage": {
     "title": "Case Studies",
-    "subtitle": "Measured outcomes from recent bilingual projects.",
+    "subtitle": "Measured outcomes from recent product and growth work.",
     "readCase": "Read case study",
     "metricLabel": "Key result",
     "detailEyebrow": "Success story",
@@ -256,7 +310,7 @@
     "noor-retail": {
       "title": "Noor Retail",
       "subtitle": "Arabic storefront relaunch with 38% lower CPL",
-      "client": "Noor Retail · UAE",
+      "client": "Noor Retail · Global",
       "service": "Digital Marketing",
       "challenge": "English campaigns performed well but Arabic landing pages converted at half the rate, inflating overall acquisition costs.",
       "approach": "We rebuilt Arabic product pages with RTL-first design, rewrote ad copy with native reviewers, and restructured Meta campaigns by language.",
@@ -266,7 +320,7 @@
     "fleetpulse": {
       "title": "FleetPulse",
       "subtitle": "Bilingual Next.js dashboard in six weeks",
-      "client": "FleetPulse · KSA",
+      "client": "FleetPulse · Remote",
       "service": "Next.js Development",
       "challenge": "FleetPulse needed a customer dashboard supporting Arabic RTL and English LTR without maintaining two separate codebases.",
       "approach": "We shipped a Next.js app with locale routing, shared component library, and accessible UI patterns tested in both directions.",
@@ -274,44 +328,44 @@
       "summary": "One codebase, two languages, enterprise-grade performance."
     },
     "gulfpay": {
-      "title": "GulfPay",
-      "subtitle": "RTL product marketing for a fintech launch",
-      "client": "GulfPay · Bahrain",
+      "title": "PayFlow",
+      "subtitle": "Product marketing for a global fintech launch",
+      "client": "PayFlow · Worldwide",
       "service": "Digital Marketing + Web",
-      "challenge": "Launching a payments product required trust-heavy messaging in Arabic without losing the premium feel of the English brand.",
+      "challenge": "Launching a payments product required trust-heavy messaging across multiple locales without losing brand premium.",
       "approach": "We paired regulatory-aware copywriters with a bright marketing site and phased ad rollout across Meta and Google.",
-      "results": ["52% increase in qualified signups", "RTL-native product pages", "4 sprint delivery"],
-      "summary": "A regulated fintech launch that felt local in Arabic and global in English."
+      "results": ["52% increase in qualified signups", "Locale-native product pages", "4 sprint delivery"],
+      "summary": "A fintech launch that felt local everywhere and cohesive everywhere else."
     }
   },
   "careersPage": {
     "title": "Careers",
-    "subtitle": "Join a senior team building bilingual products and campaigns.",
+    "subtitle": "Join a remote-first studio building products for the open web.",
     "openRoles": "Open roles",
     "apply": "Apply now",
     "location": "Location",
     "type": "Type",
     "perksTitle": "Why work with us",
-    "perks": ["Remote-friendly across GCC", "Small team, real ownership", "Bilingual projects from day one", "Learning budget & conferences"]
+    "perks": ["Remote-first worldwide", "Small team, real ownership", "Multilingual projects welcome", "Learning budget & conferences"]
   },
   "careerPages": {
     "senior-react-dev": {
       "title": "Senior React Developer",
-      "location": "Dubai / Remote",
+      "location": "Remote · Worldwide",
       "type": "Full-time",
-      "description": "Build bilingual React and Next.js products for clients across the Gulf. You'll own features end-to-end and mentor junior developers."
+      "description": "Build React and Next.js products for clients around the globe. You'll own features end-to-end in a small senior team."
     },
     "growth-marketer": {
       "title": "Growth Marketer",
-      "location": "Riyadh / Remote",
+      "location": "Remote · Worldwide",
       "type": "Full-time",
-      "description": "Run Meta and Google campaigns for Arabic and English audiences. You'll optimize funnels and report on measurable growth."
+      "description": "Run Meta and Google campaigns for global audiences. You'll optimize funnels and report on measurable growth."
     },
     "arabic-copywriter": {
-      "title": "Arabic Copywriter",
-      "location": "Remote",
+      "title": "Multilingual Copywriter",
+      "location": "Remote · Worldwide",
       "type": "Contract",
-      "description": "Write campaign copy, landing pages, and product messaging in Modern Standard Arabic with regional nuance."
+      "description": "Write campaign copy, landing pages, and product messaging across English, Arabic, and other locales."
     }
   },
   "teamPage": {
@@ -320,10 +374,10 @@
     "join": "We're hiring"
   },
   "teamMembers": {
-    "layla": { "name": "Layla Al-Rashid", "role": "Head of Strategy", "bio": "10+ years leading bilingual campaigns for retail and SaaS brands in the Gulf." },
+    "layla": { "name": "Layla Al-Rashid", "role": "Head of Strategy", "bio": "Campaign strategist for retail and SaaS brands across Europe and the Middle East." },
     "omar": { "name": "Omar Hassan", "role": "Lead Engineer", "bio": "Full-stack developer specializing in MERN and Next.js with i18n architecture." },
-    "sarah": { "name": "Sarah Mitchell", "role": "Design Director", "bio": "Product designer focused on accessible, RTL-aware interfaces that feel premium." },
-    "ahmed": { "name": "Ahmed Farouk", "role": "Growth Lead", "bio": "Performance marketer with deep Meta and Google expertise across MENA." }
+    "sarah": { "name": "Sarah Mitchell", "role": "Design Director", "bio": "Product designer focused on accessible, locale-aware interfaces that feel premium." },
+    "ahmed": { "name": "Ahmed Farouk", "role": "Growth Lead", "bio": "Performance marketer with deep Meta and Google expertise across global markets." }
   },
   "pricingPage": {
     "title": "Pricing",
@@ -337,14 +391,14 @@
     "starter": {
       "name": "Starter",
       "price": "$2,500",
-      "description": "For early-stage brands testing bilingual channels.",
-      "features": ["1 language pair (AR/EN)", "Landing page + ads setup", "Monthly performance report", "Email support"]
+      "description": "For early-stage teams testing new channels.",
+      "features": ["Single or multi-locale setup", "Landing page + ads setup", "Monthly performance report", "Email support"]
     },
     "growth": {
       "name": "Growth",
       "price": "$5,500",
       "description": "For teams ready to scale campaigns and ship web updates.",
-      "features": ["Full bilingual campaigns", "CRO & A/B testing", "Bi-weekly strategy calls", "Slack channel access", "Web maintenance hours"]
+      "features": ["Full-funnel campaigns", "CRO & A/B testing", "Bi-weekly strategy calls", "Slack channel access", "Web maintenance hours"]
     },
     "enterprise": {
       "name": "Enterprise",
@@ -357,9 +411,9 @@
     "title": "FAQ",
     "subtitle": "Answers to common questions about working with Sama Digital.",
     "items": [
-      { "q": "Do you work with clients outside the Gulf?", "a": "Yes. While we're based in Dubai, we partner with teams across MENA, Europe, and North America who need Arabic and English expertise." },
+      { "q": "Do you only work in certain countries?", "a": "No. We're remote-first and partner with teams across Europe, the Americas, Asia, and the Middle East. Your timezone is ours too." },
       { "q": "Can you handle both marketing and development?", "a": "Absolutely. Many clients start with campaigns and expand into MERN or Next.js builds — or vice versa. One team means aligned strategy." },
-      { "q": "How do you manage Arabic and English content?", "a": "We use native reviewers for both languages, design RTL layouts from the start, and never rely on machine translation for customer-facing copy." },
+      { "q": "How do you handle multiple languages?", "a": "We design for every locale from the start — layout, copy, and routing — with native reviewers, not machine translation alone." },
       { "q": "What is a typical project timeline?", "a": "Campaign launches often go live in 2–4 weeks. Web projects range from 4–8 weeks depending on scope. We share a clear timeline in the proposal." },
       { "q": "Do you offer monthly retainers?", "a": "Yes. Our Growth and Enterprise plans include ongoing optimization, reporting, and development hours. Starter is ideal for focused launches." },
       { "q": "How do we get started?", "a": "Book a strategy call via our contact page. We'll discuss goals, audiences, and suggest a practical first sprint." }

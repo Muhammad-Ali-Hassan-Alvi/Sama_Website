@@ -8,13 +8,7 @@ import { ServiceDetailPage } from "@/pages/ServiceDetailPage";
 import { IndustryDetailPage } from "@/pages/IndustryDetailPage";
 import { CaseStudyDetailPage } from "@/pages/CaseStudyDetailPage";
 import { IndustriesPage, CaseStudiesPage } from "@/pages/WorkPages";
-import {
-  CareersPage,
-  TeamPage,
-  PricingPage,
-  FAQPage,
-  TestimonialsPage,
-} from "@/pages/CompanyPages";
+import { CareersPage, TeamPage, FAQPage, TestimonialsPage } from "@/pages/CompanyPages";
 import { NotFoundPage } from "@/pages/NotFoundPage";
 
 export default function App() {
@@ -31,7 +25,6 @@ export default function App() {
         <Route path="about" element={<AboutPage />} />
         <Route path="team" element={<TeamPage />} />
         <Route path="careers" element={<CareersPage />} />
-        <Route path="pricing" element={<PricingPage />} />
         <Route path="faq" element={<FAQPage />} />
         <Route path="testimonials" element={<TestimonialsPage />} />
         <Route path="contact" element={<ContactPage />} />

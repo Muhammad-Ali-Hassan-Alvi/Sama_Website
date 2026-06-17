@@ -4,7 +4,7 @@ import { Link, Navigate, useParams } from "react-router-dom";
 import { MotionInView } from "@/components/MotionInView";
 import { PageHero } from "@/components/sections/PageHero";
 import { CtaBanner } from "@/components/sections/CtaBanner";
-import { caseStudySlugs, serviceSlugs, type ServiceSlug } from "@/content/siteData";
+import { caseStudySlugs, serviceImages, serviceSlugs, type ServiceSlug } from "@/content/siteData";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -48,6 +48,20 @@ export function ServiceDetailPage() {
           </Button>
         </div>
       </PageHero>
+
+      <section className="section-shell pt-0">
+        <div className="section-container">
+          <MotionInView>
+            <div className="overflow-hidden rounded-[1.75rem] border border-[#FFEDED] shadow-lg shadow-[#F86B64]/10">
+              <img
+                src={serviceImages[slug]}
+                alt={t(`servicePages.${slug}.title`)}
+                className="aspect-[21/9] w-full object-cover"
+              />
+            </div>
+          </MotionInView>
+        </div>
+      </section>
 
       <section className="section-shell">
         <div className="section-container grid gap-10 lg:grid-cols-[1fr_1fr]">

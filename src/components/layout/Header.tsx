@@ -6,6 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import { useLocale } from "@/hooks/useLocale";
 import { localeLabels, supportedLocales, type Locale } from "@/lib/i18n";
+import { serviceSlugs } from "@/content/siteData";
 import { cn } from "@/lib/utils";
 
 type NavItem =
@@ -19,7 +20,10 @@ const navItems: NavItem[] = [
     to: "/services",
     children: [
       { key: "services", to: "/services" },
-      { key: "pricing", to: "/pricing" },
+      ...serviceSlugs.map((slug) => ({
+        key: slug,
+        to: `/services/${slug}`,
+      })),
     ],
   },
   {
@@ -44,6 +48,13 @@ const navItems: NavItem[] = [
   { key: "contact", to: "/contact" },
 ];
 
+function navChildLabel(key: string, t: (k: string) => string) {
+  if ((serviceSlugs as readonly string[]).includes(key)) {
+    return t(`servicePages.${key}.title`);
+  }
+  return t(`nav.${key}`);
+}
+
 export function Header() {
   const { t } = useTranslation();
   const { locale, setLocale } = useLocale();
@@ -52,10 +63,10 @@ export function Header() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border/60 bg-[#faf7f2]/90 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-[#FFEDED] bg-[#FFEDED]/80 backdrop-blur-xl">
       <div className="section-container flex h-[4.75rem] items-center justify-between gap-4">
         <Link to="/" className="group flex shrink-0 items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-[#e85d4c] to-[#f4a259] text-lg font-extrabold text-white shadow-lg shadow-[#e85d4c]/20 transition group-hover:scale-[1.03]">
+          <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-[#F86B64] to-[#ffb4a8] text-lg font-extrabold text-white shadow-lg shadow-[#F86B64]/20 transition group-hover:scale-[1.03]">
             S
           </span>
           <div className="leading-tight">
@@ -94,7 +105,7 @@ export function Header() {
                           to={child.to}
                           className="block rounded-xl px-3.5 py-2.5 text-sm font-medium text-foreground/80 transition hover:bg-muted hover:text-primary"
                         >
-                          {t(`nav.${child.key}`)}
+                          {navChildLabel(child.key, t)}
                         </Link>
                       ))}
                     </div>
@@ -196,7 +207,7 @@ export function Header() {
                         )
                       }
                     >
-                      {t(`nav.${child.key}`)}
+                      {navChildLabel(child.key, t)}
                     </NavLink>
                   ))
                 : [

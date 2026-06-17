@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@600;700;800&display=swap");
 @import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
@@ -10,26 +10,27 @@
   --card-foreground: 24 10% 10%;
   --popover: 0 0% 100%;
   --popover-foreground: 24 10% 10%;
-  --primary: 6 78% 57%;
+  --primary: 4 90% 68%;
   --primary-foreground: 0 0% 100%;
-  --secondary: 180 69% 33%;
+  --secondary: 24 10% 18%;
   --secondary-foreground: 0 0% 100%;
-  --muted: 30 10% 92%;
-  --muted-foreground: 25 5% 45%;
-  --accent: 32 88% 65%;
+  --muted: 0 43% 96%;
+  --muted-foreground: 25 6% 42%;
+  --accent: 0 100% 96%;
   --accent-foreground: 24 10% 10%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 98%;
-  --border: 30 14% 88%;
-  --input: 30 14% 88%;
-  --ring: 6 78% 57%;
+  --border: 0 30% 92%;
+  --input: 0 30% 92%;
+  --ring: 4 90% 68%;
   --radius: 0.85rem;
 
-  --brand-coral: #e85d4c;
-  --brand-teal: #1a8f8f;
-  --brand-amber: #f4a259;
-  --brand-cream: #faf7f2;
-  --brand-ink: #1c1917;
+  --brand-bittersweet: #f86b64;
+  --brand-misty: #ffeded;
+  --brand-ink: #0c0a09;
+  --brand-slate: #292524;
+  --brand-cream: #ffeded;
+  --brand-rose-light: #ffb4a8;
 }
 
 @theme inline {
@@ -57,6 +58,7 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --font-sans: "Plus Jakarta Sans", "Cairo", system-ui, sans-serif;
+  --font-display: "Syne", "Plus Jakarta Sans", system-ui, sans-serif;
 }
 
 * {
@@ -70,10 +72,19 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: var(--brand-cream);
+  background-color: var(--brand-cream);
+  background-image:
+    linear-gradient(rgba(248, 107, 100, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(248, 107, 100, 0.04) 1px, transparent 1px);
+  background-size: 52px 52px;
   color: var(--brand-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
 }
 
 html[lang="ar"] body {
@@ -143,9 +154,102 @@ html[lang="ar"] body {
 
 .mesh-hero {
   background:
-    radial-gradient(ellipse 80% 60% at 10% 0%, rgba(232, 93, 76, 0.12), transparent 55%),
-    radial-gradient(ellipse 70% 50% at 90% 10%, rgba(26, 143, 143, 0.1), transparent 50%),
-    linear-gradient(180deg, #ffffff 0%, #faf7f2 100%);
+    radial-gradient(ellipse 75% 55% at 5% 0%, rgba(248, 107, 100, 0.12), transparent 55%),
+    radial-gradient(ellipse 65% 50% at 95% 15%, rgba(255, 237, 237, 0.9), transparent 50%),
+    linear-gradient(180deg, #ffffff 0%, #ffeded 100%);
+}
+
+.hero-orb {
+  pointer-events: none;
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.5;
+}
+
+.hero-orb-a {
+  width: 18rem;
+  height: 18rem;
+  top: 2.5rem;
+  background: #f86b64;
+  inset-inline-start: -6rem;
+}
+
+.hero-orb-b {
+  width: 20rem;
+  height: 20rem;
+  inset-inline-end: 0;
+  top: 8rem;
+  background: rgba(255, 237, 237, 0.85);
+}
+
+.manifesto-card {
+  border-inline-start: 3px solid var(--brand-bittersweet);
+  padding-inline-start: 1.25rem;
+}
+
+.manifesto-quote {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-style: italic;
+  line-height: 1.75;
+  color: hsl(var(--muted-foreground));
+}
+
+.hero-promise {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  border: 1px solid rgba(91, 95, 232, 0.18);
+  background: rgba(255, 255, 255, 0.85);
+  padding: 0.4rem 0.875rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--brand-slate);
+  box-shadow: 0 1px 2px rgba(12, 10, 9, 0.04);
+}
+
+.cta-glass-wrap {
+  box-shadow:
+    0 4px 24px rgba(248, 107, 100, 0.15),
+    0 24px 64px rgba(255, 237, 237, 0.5);
+}
+
+.footer-glass-wrap {
+  position: relative;
+  box-shadow:
+    0 4px 24px rgba(248, 107, 100, 0.1),
+    0 16px 48px rgba(255, 237, 237, 0.6);
+}
+
+.footer-glass-panel {
+  border-radius: calc(1.75rem - 1px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.55) 0%,
+    rgba(255, 237, 237, 0.35) 50%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  backdrop-filter: blur(18px) saturate(1.3);
+  -webkit-backdrop-filter: blur(18px) saturate(1.3);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.cta-glass-panel {
+  border-radius: calc(2rem - 1px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.22) 0%,
+    rgba(255, 255, 255, 0.08) 45%,
+    rgba(255, 255, 255, 0.14) 100%
+  );
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.06);
 }
 
 .surface-card {
@@ -197,7 +301,7 @@ html[lang="ar"] .hero-headline {
   overflow: visible;
   padding-block: 0.08em 0.14em;
   line-height: 1.18;
-  background: linear-gradient(90deg, #e85d4c 0%, #f4a259 48%, #1a8f8f 100%);
+  background: linear-gradient(90deg, #f86b64 0%, #ffb4a8 48%, #ffeded 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -372,8 +476,8 @@ html[lang="ar"] .hero-tagline-track {
   width: 8px;
   height: 8px;
   border-radius: 9999px;
-  background: #e85d4c;
-  box-shadow: 0 0 12px rgba(232, 93, 76, 0.45);
+  background: #f86b64;
+  box-shadow: 0 0 12px rgba(248, 107, 100, 0.45);
   will-change: transform;
   transition: opacity 0.2s ease;
 }
@@ -382,8 +486,8 @@ html[lang="ar"] .hero-tagline-track {
   width: 36px;
   height: 36px;
   border-radius: 9999px;
-  border: 1.5px solid rgba(232, 93, 76, 0.45);
-  background: rgba(244, 162, 89, 0.08);
+  border: 1.5px solid rgba(248, 107, 100, 0.4);
+  background: rgba(255, 237, 237, 0.35);
   will-change: transform;
   transition: opacity 0.2s ease, transform 0.15s ease;
 }
